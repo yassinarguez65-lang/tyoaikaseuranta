@@ -1,0 +1,15 @@
+== ULKOASU ==
+Tässä kansiossa on käyttöliittymäluonnokset jokaisesta sivusta sekä graafinen ohjeistus. Luonnokset ovat suuntaa-antavia. Fonttikoot kannattaa arvioida sen mukaan, mitä on miellyttävä lukea ja mahtuu asemointiin. Graafista ohjeistoa sen sijaan pitää noudattaa tarkasti (ei muita värejä tai fontteja kuin määritellyt). Poikkeus: Canvas-elementit voivat käyttää jotain standardifonttia, jos Google-fontteja ei tueta.
+
+Kapeammilla näytöillä elementit siirtyvät toistensa alle ja ylävalikko vaihtuu hampurilaisvalikkoon. Canvas-elementit saa pysymään näytön sisällä määrittelemällä niille "max-width: 100%;". Tämä ei vaikuta kanvaasin piirtokoordinaatteihin.
+
+Tiimit-sivulla tiimiläisen nimeä napsauttamalla aukeaa lisätietoikkuna, jossa on kaikki kyseisen tiimiläisen tiedot. Leveällä näytöllä tämä voi olla pienten laatikoiden vieressä tai päällä. Kapeammalla sen on pakko olla päällä (overlay) - viereen ei mahdu. Sulkemisen voi tehdä esimerkiksi napsauttamalla.
+
+Raportit-sivulla kannattaa käyttää alku- ja loppupäivämäärään date-tyyppistä input-elementtiä. Datatiedostossa on esimerkkidataa vain välillä 3.-14.10.2022.
+
+Lisää tuntikirjaus -lomakkeessa pudotusvalikkojen työlajit tulevat datatiedostoista. Aluksi tunneissa on tarjolla vain yksi rivi kenttiä, uusia saa "Lisää uusi" -napista. Lähetä-nappi on poissa käytöstä siihen asti, kunnes käyttäjä on antanut nimen, valinnut päivämäärän ja syöttänyt ainakin yhdelle riville (ylimmälle) tuntikirjauksen. Päivän kokonaistuntimäärä ei myöskään saa olla yli 12 tuntia eikä yksikään tuntikenttä saa olla negatiivinen luku (tai jotain muuta kuin luku).
+
+Lomaketta ei tarvitse lähettää mihinkään. Riittää, että selainpuolen tarkistukset ja muutokset toimivat.
+
+==TIETOVARASTO==
+Data-kansiossa on tarvittava data olioina. Data on paketoitu moduuleihin, joten muuttujat pitää tuoda import-käskyllä Javascript-koodiisi.

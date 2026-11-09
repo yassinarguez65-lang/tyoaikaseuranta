@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Työaikaseuranta</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Työaikaseuranta</h1>
+
+        <button id="valikko-nappi" aria-label="Avaa valikko">
+            ☰
+        </button>
+
+        <nav id="paavalikko">
+            <button data-sivu="tiimit">Tiimit</button>
+            <button data-sivu="kirjaus">Kirjaus</button>
+            <button data-sivu="raportit">Raportit</button>
+        </nav>
+    </header>
+
+    <main id="sisalto">
+        <h2>Tervetuloa työaikaseurantaan</h2>
+        <p>Valitse ylävalikosta haluamasi toiminto.</p>
+    </main>
+
+</body>
+</html>
